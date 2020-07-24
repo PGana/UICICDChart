@@ -1,0 +1,13 @@
+
+<div>
+  <h3 style="color: slateblue;">Messages</h3>
+
+  <table>
+    <tr> <th>Name</th> <th>Message</th> </tr>
+    <tr *ngFor="let row of data"><td>
+      {{row.name}}
+    </td>
+  <td>{{row.message}}</td> </tr>
+  </table>
+
+</div>
